@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commentaires</title>
+</head>
+<body>
+    <h1>Commentaires</h1>
+    <form method="post" action="commentaires.php" name="comm1">
+            <label for="nom">Nom : </label>
+                <input type="text" id="nom" name="nom" required><br>
+            <label for="msg">Message : </label>
+                <textarea id="msg" name="msg" placeholder="Entrez votre message de maximum 500 caractères ici" maxlength="500" rows="5" cols="60"></textarea><br>
+                <label for="lang">Langue : </label>
+                <select name="langues" id="lang">
+                    <option value="0" disabled>Choissiez votre langue</option>
+                    <option value="fr">Français</option>
+                    <option value="en">Anglais</option>
+                    <option value="am">Amazigh</option>
+                  </select><br>
+                  <label>Vos préférences : </label><br>
+            
+                <label for="chat">Chat</label>
+                    <input type="checkbox" id="chat" value="chat" name="pref[]">
+                        <br>
+                        <label for="chat">Chien</label>
+                    <input type="checkbox" id="chien" value="chien" name="pref[]">
+                        <br>
+                        <label for="chat">Souris</label>
+                    <input type="checkbox" id="souris" value="souris" name="pref[]">
+                        <br>
+                    <input type="reset" value="Effacer le contenu">
+                <input type="submit" value="Envoyez le message"><br>
+                
+
+
+
+    </form>
+</body>
+</html>

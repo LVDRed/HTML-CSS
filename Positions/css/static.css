@@ -1,0 +1,42 @@
+/**/
+.bloc{
+    width:500px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.bloc2{
+    width:500px;
+    height: 200px;
+    border: 3px dashed black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 250px;
+    left:155px;
+    border: 3px solid red;
+    margin-bottom:100px;
+  }
+
+}
+#bloc1{
+    background-color: aquamarine;
+    
+}
+#bloc2{
+    background-color: blanchedalmond;
+}
+#bloc3{
+    background-color: coral;
+
+}
+#terma1{
+    background-color: purple;
+}
+#terma2{
+    background-color: palegreen;
+}
